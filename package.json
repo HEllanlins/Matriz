@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/HEllanlins/Matriz/issues"
   },
-  "homepage": "https://github.com/HEllanlins/Matriz#readme"
+  "homepage": "https://github.com/HEllanlins/Matriz#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
