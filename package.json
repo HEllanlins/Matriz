@@ -15,12 +15,8 @@
   "bugs": {
     "url": "https://github.com/HEllanlins/Matriz/issues"
   },
-<<<<<<< HEAD
   "homepage": "https://github.com/HEllanlins/Matriz#readme",
   "dependencies": {
     "express": "^4.21.2"
   }
-=======
-  "homepage": "https://github.com/HEllanlins/Matriz#readme"
->>>>>>> parzyval
 }
