@@ -1,45 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="icon" type="image/x-icon" href="image/favicon.ico">
-    <link rel="stylesheet" href="Style/Login.css">
+    <link rel="stylesheet" href="/src/Style/Login.css">
 </head>
+
 <body>
-    <header class="Topo">
-
-    </header>
-
-    <section class="inicio">
-
-    </section>
-
-    <section class="">
-
-    </section>
-
-    <section class="">
-
-    </section>
-
-    <section class="">
-
-    </section>
-
-    <section class="">
-
-    </section>
-
-    <section class="">
-        
-    </section>
+    <div class="login-container">
+        <h1>Login</h1>
+        <form>
+            <div class="form-group">
+                <label for="email">E-mail <span class="obr">*</span></label>
+                <input type="email" id="email" name="email" placeholder="Seu E-mail" required>
+            </div>
+            <div class="form-group">
+                <label for="senha">Password <span>*</span></label>
+                <input type="password" id="senha" name="senha" placeholder="Sua Senha" required>
+            </div>
+            <div class="containerb">
+                <button type="submit" class="login-button">Login</button>
+            </div>
+        </form>
+        <div class="register-link">
+            <p>Não possui conta? <a href="#">Registrar-se</a></p>
+        </div>
+        <div class="Forget">
+            <p>Esqueçeu a senha? <a href="#">Recuperar senha</a></p>
+        </div>
+    </div>
 
     <footer>
-
+        <p><strong>&copy; Todos os direitos reservados - 2025</strong> | Fale Conosco: <a
+                href="mailto:example@email.com">matrizdeconstrutores@gmail.com</a> | Telefone: (61) 99298-0646 <br>
+            CEOs: Hellan Lins, Alexandre Veloso e Victor Martins.</p>
     </footer>
 
     <script src="Script/Login.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #0605511c, #00187a4a, #001568);
+    background-color: #000;
+    color: #898989;
+    flex-direction: column;
+}
+
+.login-container {
+    background: #9c9c9c27;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    background: linear-gradient(to right, #0605510e, #3e3e3e1c, #00205a54);
+    background-color: #30303032;
+}
+
+.login-container h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px 0px;
+    border: 1px solid #808080;
+    background-color: #242424;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group input::placeholder {
+    color: #009dffa5;
+    /* Light blue */
+    padding-left: 10px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.obr {
+    color: rgb(210, 0, 0);
+    font-size: 14px;
+}
+
+.containerb {
+    display: flex;
+    justify-content: center;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.login-button:hover {
+    background-color: #00eeff;
+    color: #000;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #007bff;
+    text-decoration: none;
+    transition: 0.8s;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+    color: greenyellow;
+}
+
+.Forget {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 11px;
+}
+
+.Forget a {
+    color: #007bff;
+    text-decoration: none;
+    transition: 0.8s;
+}
+
+.Forget a:hover {
+    text-decoration: underline;
+    color: rgb(207, 0, 0);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #9e9e9ed6;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 13px;
+}
+
+footer a {
+    color: #019ba0;
+    text-decoration: none;
+    transition: 0.8s;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: greenyellow;
+}
