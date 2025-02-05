@@ -1,45 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="icon" type="image/x-icon" href="image/favicon.ico">
-    <link rel="stylesheet" href="Style/index.css">
+    <title>Catálogo</title>
+    <link rel="icon" type="image/png" href="/assets/Imgs/m3.png">
+    <link rel="stylesheet" href="/src/Style/index.css">
 </head>
+
 <body>
-    <header class="Topo">
+    <header>
+        <div class="logo">
+            <img src="/assets/Imgs/m3.png" alt="Logo" />
+        </div>
+
+        <div class="menu-hamburguer">
+            <input type="checkbox" id="menu-toggle" />
+            <label for="menu-toggle" class="menu-icon">
+                <div class="linha"></div>
+                <div class="linha"></div>
+            </label>
+
+            <div class="overlay">
+                <nav class="menu">
+                    <ul>
+                        <li>
+                            <a href="/index.html"><strong>Home</strong></a>
+                        </li>
+                        <li>
+                            <a href="/Sobre.html"><strong>Sobre Nós</strong></a>
+                        </li>
+                        <li>
+                            <a href="/Contato.html"><strong>Contato</strong></a>
+                        </li>
+                        <li>
+                            <a href="/Catalogo.html"><strong>Catalogo</strong></a>
+                        </li>
+                        <li>
+                            <a href="/CEOs.html"><strong>CEOs</strong></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
 
     </header>
 
-    <section class="inicio">
+    <main>
 
-    </section>
+    </main>
 
-    <section class="">
-
-    </section>
-
-    <section class="">
-
-    </section>
-
-    <section class="">
-
-    </section>
-
-    <section class="">
-
-    </section>
-
-    <section class="">
-        
-    </section>
-
-    <footer>
-
-    </footer>
-
-    <script src="Script/index.js"></script>
+    <script src="/src/Script/index.js"></script>
 </body>
+
 </html>
